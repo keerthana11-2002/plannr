@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+ # Plannr
+ 
+This Plannr is a full-stack web application designed to offer users seamless scheduling and appointment booking functionality. Built with Next.js,React and integrated with powerful tools like Prisma, Neon, Clerk, and Tailwind CSS,Shadcn UI this application is optimized for speed, scalability, and an intuitive user experience. 
 
-## Getting Started
+# Features
 
-First, run the development server:
+- **User Authentication**: Secure login and signup with Clerk.
+- **User Profiles and Customizable Availability**: Users can set up profiles and define their available times for scheduling.
+- **Booking System**: Easy-to-use interface for booking meetings based on user availability.
+- **Responsive Design**: Tailwind CSS ensures a mobile-friendly and fully responsive layout.
+- **Real-Time Data**: All booking and user data is synced in real-time using Prisma and a PostgreSQL database hosted on Neon.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Next.js** - React framework for fast, server-rendered applications.
+- **React** - Frontend JavaScript library.
+- **Tailwind CSS** - Utility-first CSS framework for rapid styling.
+- **Prisma** - ORM for managing and interacting with the PostgreSQL database.
+- **Neon** - Serverless PostgreSQL hosting.
+- **Clerk** - Authentication and user management.
+- **Shadcn UI** - A set of reusable and customizable UI components.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+# Environment Variables
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- DATABASE_URL=
+- NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+- CLERK_SECRET_KEY=
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+- NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up 
