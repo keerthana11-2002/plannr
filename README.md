@@ -12,7 +12,6 @@ This Plannr is a full-stack web application designed to offer users seamless sch
 
 # Tech Stack
 
-- **Next.js** - React framework for fast, server-rendered applications.
 - **React** - Frontend JavaScript library.
 - **Tailwind CSS** - Utility-first CSS framework for rapid styling.
 - **Prisma** - ORM for managing and interacting with the PostgreSQL database.
