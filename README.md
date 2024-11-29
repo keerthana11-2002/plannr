@@ -1,6 +1,6 @@
  # Plannr
  
-This Plannr is a full-stack web application designed to offer users seamless scheduling and appointment booking functionality. Built with Next.js,React and integrated with powerful tools like Prisma, Neon, Clerk, and Tailwind CSS,Shadcn UI this application is optimized for speed, scalability, and an intuitive user experience. 
+This Plannr is a full-stack web application designed to offer users seamless scheduling and appointment booking functionality. Built with React and integrated with powerful tools like Prisma, Neon, Clerk, and Tailwind CSS,Shadcn UI this application is optimized for speed, scalability, and an intuitive user experience. 
 
 # Features
 
